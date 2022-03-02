@@ -7,7 +7,6 @@ print("Status code:")
 print("\t *", r.status_code)
 
 h = requests.head(url)
-print(url)
 print("Website Header:")
 print("****")
 
